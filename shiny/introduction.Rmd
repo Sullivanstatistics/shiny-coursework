@@ -25,3 +25,5 @@ from which the samples are drawn from. The *seed* value allows you to control
 the randomness of the samples: if you choose the same mean and standard deviation,
 and change the seed, you will obtain different samples drawn iid from the normally
 distributed population.
+
+The code for this project is available on github at: https://github.com/TheRiver/shiny-coursework
