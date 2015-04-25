@@ -41,14 +41,20 @@ means <- data.frame(
 
 |   n|     mean|
 |---:|--------:|
-|   5| 49.68266|
-| 100| 49.68266|
+|   5| 39.40145|
+| 100| 39.40145|
 
 Use the app now!
 ========================================================
 
 
-You can find the app at
+You can find the app at: 
+
+https://theriver.shinyapps.io/law-of-large-numbers/
+
+The source code is available on [GitHub](https://github.com/TheRiver/shiny-coursework). 
+
+
 
 
 

@@ -1,2 +1,5 @@
 .Rproj.user
 *.Rproj
+shiny/shinyapps
+.RData
+.Rhistory

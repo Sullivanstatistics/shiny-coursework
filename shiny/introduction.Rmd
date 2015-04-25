@@ -3,7 +3,7 @@
 The *Law of Large Numbers* says that as one draws larger and larger
 samples from a population with mean $\mu$ and finite variance, 
 the sample mean will converge towards $\mu$. More formally, 
-if $n$ is the sample size, and $X_{n}$ a sample of size $n$ drawn iid
+if $X_{n}$ is a sample of size $n$ drawn iid
 from the population, then 
 
 $$
