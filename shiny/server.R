@@ -83,7 +83,7 @@ shinyServer(function(input, output, clientData, session) {
         )    
         
         g <- ggplot(residuals, aes(x = sample, y = residual))        
-        g <- g + geom_line(alpha = 0.5)
+        g <- g + geom_line()
         g <- g + theme_light() 
         g <- g + labs(title = "Residuals as sample sizes increase",
                       x = "Sample size", y = "Residual")
