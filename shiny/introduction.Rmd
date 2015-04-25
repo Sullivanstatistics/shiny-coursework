@@ -1,0 +1,27 @@
+# Introduction
+
+The *Law of Large Numbers* says that as one draws larger and larger
+samples from a population with mean $\mu$ and finite variance, 
+the sample mean will converge towards $\mu$. More formally, 
+if $n$ is the sample size, and $X_{n}$ a sample of size $n$ drawn iid
+from the population, then 
+
+$$
+\lim_{n\to\infty} \bar{X}_n = \mu
+$$
+
+This law is useful for estimating the average value of a random variable
+in a population. 
+
+The various tabs allow you to explore this law in practice. The *Sampling* tab
+shows a normal distribution and a plot of sample means as the samples — drawn
+iid from this distribution — increase in size from $n = 1$ to $n = 550$. 
+
+The *Residuals* tab examines the difference between the true population 
+mean and the sample means as sample sizes increases. 
+
+The sidebar allows you to choose the mean and standard deviation of the gaussian
+from which the samples are drawn from. The *seed* value allows you to control
+the randomness of the samples: if you choose the same mean and standard deviation,
+and change the seed, you will obtain different samples drawn iid from the normally
+distributed population.
